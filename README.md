@@ -10,11 +10,6 @@ Esse projeto demonstra como utilizar os serviços de IA de linguagem do Azure pa
 2. Foram analisadas no [Language Studio](https://language.cognitive.azure.com)
 3. Prints das análises estão abaixo
 
-## 🖼️ Exemplos
-
-![Sentimento](./prints/sentimento.png)
-![Frases-chave](./prints/frases-chave.png)
-
 ## 💡 Insights
 - A IA identificou corretamente sentimentos positivos e negativos.
 - As frases-chave ajudam a entender o foco de cada sentença.
