@@ -1,0 +1,99 @@
+{
+    "documents": [
+        {
+            "id": "id__840",
+            "sentiment": "mixed",
+            "confidenceScores": {
+                "positive": 0.66,
+                "neutral": 0.03,
+                "negative": 0.31
+            },
+            "sentences": [
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.99,
+                        "neutral": 0.01,
+                        "negative": 0
+                    },
+                    "offset": 0,
+                    "length": 23,
+                    "text": "Hoje o dia está lindo! ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.03,
+                        "neutral": 0.06,
+                        "negative": 0.92
+                    },
+                    "offset": 23,
+                    "length": 51,
+                    "text": "Estou preocupado com meus resultados na faculdade. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.03,
+                        "neutral": 0.94,
+                        "negative": 0.02
+                    },
+                    "offset": 74,
+                    "length": 45,
+                    "text": "Preciso encontrar um estágio o quanto antes. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.96,
+                        "neutral": 0.03,
+                        "negative": 0.01
+                    },
+                    "offset": 119,
+                    "length": 44,
+                    "text": "Estou animado com meu projeto de portfólio. ",
+                    "targets": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 141,
+                            "length": 7,
+                            "text": "projeto",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/3/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 1,
+                                "negative": 0
+                            },
+                            "offset": 125,
+                            "length": 7,
+                            "text": "animado",
+                            "isNegated": false
+                        }
+                    ]
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2025-01-01"
+}
